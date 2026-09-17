@@ -15,22 +15,22 @@ const shared = {
     company_id: 'c264abd82c4948e3b72d7dbf4037ae40',
     company_grade: '2',
     bind_seller_company_code: 'LA00002',
-    mobile: '13022408271',
-    desenPhone: '13022408271',
+    mobile: '16602410013',
+    desenPhone: '16602410013',
     parent_ids: '0,65c788d15f0f41fdb9ac8a61874e1984,',
     office_childs_code: '',
-    phone: '13022408271',
+    phone: '16602410013',
     parent_id: '65c788d15f0f41fdb9ac8a61874e1984',
     company_name: '用户控制台',
-    loginName: '13022408271',
-    name: '13022408271',
+    loginName: '16602410013',
+    name: '16602410013',
     parent_code: 'LA00001',
     company_code: 'LA00002',
     id: 'd98174a8045f4491b941d2e2d4741fae',
     userType: '0',
     company_sys_area: 'LA',
-    desenMobile: '13022408271',
-    bind_seller_login_code: '13022408271',
+    desenMobile: '16602410013',
+    bind_seller_login_code: '16602410013',
     initPass: 0
   },
 
@@ -97,11 +97,63 @@ const shared = {
     frozenBalance: '920.43',
     payPassword: '10d4049bcf84716033e1ad946e7d4fb596bfb2b192ad2e37268e4adc',
     payPasswordSet: true,
-    mobile: '13022408271',
+    mobile: '16602410013',
     photo: '',
-    loginName: '13022408271',
+    loginName: '16602410013',
     _user: null
-  }
+  },
+
+  // 区域/资源池树（实例购买、专有网络、交换机、镜像管理、GPU列表等共用）
+  '/api/ac/shenbeigpuai/regionService/listRegionTree': [
+    {
+      id: '192baf85-0e5b-43d1-904f-51bf8c8a8c4d',
+      regionCode: '210100',
+      regionName: '沈阳',
+      parentId: '',
+      regionLevel: 2,
+      description: '1',
+      sortOrder: 1,
+      isEnabled: '1',
+      children: null,
+      ids: '192baf85-0e5b-43d1-904f-51bf8c8a8c4d',
+      resourcePools: [
+        {
+          id: '1539e648-6fb6-49b3-8d7d-eca609fc0132',
+          poolName: '沈阳资源池01'
+        },
+        {
+          id: '2eab67f3-166a-453f-8665-671222550307',
+          poolName: '裸金属'
+        }
+      ]
+    }
+  ],
+
+  // 专有网络列表（实例购买、专有网络、交换机、GPU列表等共用；分页接口统一返回数组）
+  '/api/ac/shenbeigpuai/vnetService/listVNet': [
+    {
+      _user: null,
+      id: '19923fb1755b428090ac5294d3b7a59e',
+      companyCode: null,
+      vnetName: 'shenyang1',
+      vnetCode: 'ND28150F',
+      vlanId: null,
+      tag: 501,
+      regionId: '192baf85-0e5b-43d1-904f-51bf8c8a8c4d',
+      poolId: null,
+      subnetCount: 1,
+      totalIps: null,
+      usedIps: 0,
+      description: '',
+      sortOrder: null,
+      createTime: '2026-07-23 10:39:06',
+      updateTime: '2026-07-23 10:39:06',
+      createBy: 'd98174a8045f4491b941d2e2d4741fae',
+      updateBy: 'd98174a8045f4491b941d2e2d4741fae',
+      delFlag: '0',
+      isDefault: '0'
+    }
+  ]
 }
 
 export default shared

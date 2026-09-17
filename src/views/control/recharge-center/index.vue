@@ -310,7 +310,8 @@ export default {
           // 显示支付二维码
           this.currentRechargeAmount = amount;
           this.currentOrderNo = res.data.orderNo;
-          this.qrCodeUrl = res.data.qrCode;
+          // this.qrCodeUrl = res.data.qrCode;
+          this.qrCodeUrl = 'for test';
           this.showQrModal = true;
           // 使用前端 qrcode 包渲染二维码到 canvas
           this.$nextTick(() => {

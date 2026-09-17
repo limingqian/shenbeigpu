@@ -135,7 +135,8 @@ export default {
       smsCountdown: 0,
       smsTimer: null,
       // 登录方式：'password' = 账号密码，'smsCode' = 短信验证码
-      loginMode: 'password',
+      // loginMode: 'password',
+      loginMode: 'smsCode',
       // 品牌信息（logo / 标题 / 副标题）
       // 默认值：取自当前页面静态资源，created 钩子会从接口覆盖
       brandInfo: {
@@ -145,9 +146,9 @@ export default {
         loginNameEn: 'XINJIYUNCHISUANLIZULINYUNPINGTAI'
       },
       formData: {
-        phone: '',
-        smsCode: '',
-        password: ''
+        phone: '16602410013',
+        smsCode: '1',
+        password: '1'
       },
       formRules: {
         phone: [{ validator: validatePhone, trigger: 'blur' }],

@@ -393,9 +393,9 @@ export default {
 
   '/api/ac/shenbeigpuai/smsVerifyCodeService/sendVerifyCode': { success: true },
 
-  '/api/ac/shenbeigpuai/userAccountService/getBalance': {
-    balance: '0.00'
-  },
+  // '/api/ac/shenbeigpuai/userAccountService/getBalance': {
+  //   balance: '0.00'
+  // },
 
   '/api/ac/shenbeigpuai/userAuthService/updatePayPassword': { success: true }
 }

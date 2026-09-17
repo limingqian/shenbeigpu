@@ -4,7 +4,7 @@
       <div class="portal-header__inner">
         <div class="portal-header__brand" @click="goHome">
           <sp-image class="portal-header__brand-icon" scp-type="图片" style=""
-            src="@/assets/file/shenbeigpuai/image/logox.png"></sp-image>
+            :src="logox"></sp-image>
           <div class="portal-header__title">某基云池<br>算力租赁云平台</div>
         </div>
 
@@ -83,6 +83,7 @@
 </template>
 
 <script>
+import logox from '@/assets/file/shenbeigpuai/image/logox.png'
 export default {
   name: 'scp-shenbeigpuai-portal-register',
   data () {
@@ -133,6 +134,7 @@ export default {
     }
 
     return {
+      logox,
       submitting: false,
       smsCountdown: 0,
       navTabs: [

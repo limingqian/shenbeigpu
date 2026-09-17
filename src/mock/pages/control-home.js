@@ -311,23 +311,23 @@ export default {
     }
   ],
 
-  '/api/ac/shenbeigpuai/userAccountService/getBalance': {
-    id: 'd9c8c186630147a3bb5e3d3dfc78df01',
-    companyCode: 'C00002',
-    userId: 'd98174a8045f4491b941d2e2d4741fae',
-    balance: '4683.64',
-    frozenBalance: '920.43',
-    totalRecharge: null,
-    totalConsume: null,
-    totalRefund: null,
-    status: 'normal',
-    createTime: null,
-    updateTime: null,
-    createBy: null,
-    updateBy: null,
-    delFlag: null,
-    paymentAmount: null,
-    rollbackAmount: null,
-    _user: null
-  }
+  // '/api/ac/shenbeigpuai/userAccountService/getBalance': {
+  //   id: 'd9c8c186630147a3bb5e3d3dfc78df01',
+  //   companyCode: 'C00002',
+  //   userId: 'd98174a8045f4491b941d2e2d4741fae',
+  //   balance: '4683.64',
+  //   frozenBalance: '920.43',
+  //   totalRecharge: null,
+  //   totalConsume: null,
+  //   totalRefund: null,
+  //   status: 'normal',
+  //   createTime: null,
+  //   updateTime: null,
+  //   createBy: null,
+  //   updateBy: null,
+  //   delFlag: null,
+  //   paymentAmount: null,
+  //   rollbackAmount: null,
+  //   _user: null
+  // }
 }

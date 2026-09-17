@@ -20,14 +20,14 @@ export default {
     accessKey: 'mock-ak'
   },
 
-  '/api/ac/shenbeigpuai/userApiKeyPackageService/listPackageUserApiKey': {
-    rows: [],
-    total: 0
-  },
+  // '/api/ac/shenbeigpuai/userApiKeyPackageService/listPackageUserApiKey': {
+  //   rows: [],
+  //   total: 0
+  // },
 
-  '/api/ac/shenbeigpuai/userAccountService/getBalance': {
-    balance: '0.00'
-  },
+  // '/api/ac/shenbeigpuai/userAccountService/getBalance': {
+  //   balance: '0.00'
+  // },
 
   '/api/ac/shenbeigpuai/userAuthService/updatePayPassword': { success: true }
 }

@@ -3,18 +3,16 @@
 export default {
   '/api/ac/shenbeigpuai/productSkuService/listGpuPurchaseSku': [],
 
-  '/api/ac/shenbeigpuai/regionService/listRegionTree': [],
-
   '/api/ac/shenbeigpuai/valueAddedProductService/listDataDiskByRegion': [],
 
-  '/api/ac/shenbeigpuai/vnetService/listVNet': [],
+  // '/api/ac/shenbeigpuai/vnetService/listVNet': [],
 
   '/api/ac/shenbeigpuai/vnetSubnetService/listSubnet': [],
 
-  '/api/ac/shenbeigpuai/mirrorService/listMirrorPage': {
-    rows: [],
-    total: 0
-  },
+  // '/api/ac/shenbeigpuai/mirrorService/listMirrorPage': {
+  //   rows: [],
+  //   total: 0
+  // },
 
   '/api/ac/shenbeigpuai/productSkuService/calculatePrice': {
     price: '0.00'

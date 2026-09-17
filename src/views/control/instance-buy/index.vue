@@ -2918,6 +2918,7 @@ export default {
           data: {}
         })
         const resp = { data: res }
+        console.log(resp)
         if (resp.data.errcode === 0 && resp.data.data) {
           // 转换为Cascader组件需要的格式：value使用regionName，label使用regionName
           this.regionList = this.convertToCascaderData(resp.data.data)
