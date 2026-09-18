@@ -670,7 +670,7 @@ export default {
 </script>
 
 <style scoped lang="less">
-@import url('https://at.alicdn.com/t/font_2345678_abcde123.css');
+// @import url('https://at.alicdn.com/t/font_2345678_abcde123.css');
 
 .help-center-search-wrapper {
   display: flex;
