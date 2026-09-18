@@ -7,6 +7,7 @@ const routes = [
   {
     path: '/',
     name: 'layout',
+    redirect: '/shenbeigpuai/control/home',
     component: () => import('../views/control/sysframe/index.vue'),
     children: [
       {
